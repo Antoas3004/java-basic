@@ -1,0 +1,18 @@
+public class Temp {
+
+	public static void main(String[] args) {
+		int x = 5;
+		int y = 6;
+		int temp;
+
+		System.out.println("x value before=" + x);
+		System.out.println("y value before=" + y);
+
+		temp = x;
+		x = y;
+		y = temp;
+
+		System.out.println("x value after=" + x);
+		System.out.println("x value after=" + y);
+	}
+}
