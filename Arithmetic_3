@@ -1,0 +1,24 @@
+public class Arithmetic_3 {
+
+	int modulo() {
+		int a = 5; // local variable
+		int b = 5;
+		int c = a % b;
+		System.out.println(c);
+		return c;
+	}
+
+	double multi() {
+		double a = 5.5; // local variable
+		double b = 7.5;
+		double c = a % b;
+		System.out.println(c);
+		return c;
+	}
+
+	public static void main(String[] args) {
+		Arithmetic_3 calc = new Arithmetic_3();
+		calc.modulo();
+		calc.multi();
+	}
+}
